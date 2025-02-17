@@ -11,8 +11,8 @@ const form = ref<any>({
 })
 
 function signUp(val: any) {
-    loading.value = true
-    
+  loading.value = true
+
   console.log(val)
 }
 
@@ -59,15 +59,15 @@ function onError(error: any) {
             </a-form-item>
 
             <a-form-item>
-              <a-button type="primary" html-type="submit" :loading="loading">Create Account</a-button>
+              <a-button type="primary" html-type="submit" :loading="loading"
+                >Create Account</a-button
+              >
             </a-form-item>
 
             <a-form-item>
               <p>
                 Already have an account?
-                <RouterLink to="/sign-in">
-                    Login
-                </RouterLink>
+                <RouterLink to="/sign-in"> Login </RouterLink>
               </p>
             </a-form-item>
           </a-form>
