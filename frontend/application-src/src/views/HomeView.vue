@@ -3,7 +3,7 @@ import TheWelcome from '../components/TheWelcome.vue'
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <h1>Home view</h1>
+
+  <a-button type="primary">Primary Button</a-button>
 </template>
